@@ -1,13 +1,6 @@
 :root {
-  --background: #ffffff;
+  --background: #F1FAEE;
   --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 html,
@@ -30,13 +23,11 @@ body {
   margin: 0;
 }
 
+h1 {
+  color: #457B9D;
+}
+
 a {
   color: inherit;
   text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
 }
